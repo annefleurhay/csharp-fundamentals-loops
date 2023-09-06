@@ -83,7 +83,7 @@ namespace csharp_fundamentals_loops.Test
             Assert.AreEqual(true, exercise.stepFive("Language learning"));
             Assert.AreEqual(true, exercise.stepFive("Skydiving"));
             Assert.AreEqual(true, exercise.stepFive("Procrastinating"));
-
+            //public string[] myHobbies = { "Fishing", "Language learning", "Skydiving", "Procrastinating" };
             Assert.AreEqual(false, exercise.stepFive("Singing"));
             Assert.AreEqual(false, exercise.stepFive("Dancing"));
             Assert.AreEqual(false, exercise.stepFive("Horse riding"));
